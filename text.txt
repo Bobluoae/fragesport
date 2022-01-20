@@ -1,0 +1,4 @@
+Json filen ser ut så här {1 [fråga1 med värde q1, SvarArr[a1,a2,a3,a4]],[2 osv]}
+
+
+Vad jag vill göra är att räkna 1, 2, 3 osv från json och varje nummer är en ny sida och bara visar den fråga jag är på.
