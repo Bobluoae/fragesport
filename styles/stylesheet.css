@@ -1,5 +1,5 @@
 body{ /* Det här är koden som bestämer hur text ska se ut, och hur backgrunden kommer at se ut. */
-background-color: lightgreen;
+background-color: lightblue;
 background-position:center;
 font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
@@ -24,7 +24,7 @@ display: flex;
     height:500px;
 }
 #nav {
-	background-color: yellow;
+	background-color: lightgreen;
 	margin: 0px;
 	padding: 0px;
 }
