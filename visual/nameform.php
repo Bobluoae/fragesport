@@ -1,5 +1,11 @@
 <body>
-<div id="overlapper">
+
+	<form action="?quiz=clicked" method="post">
+		<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
+		<input type="submit" value="Börja Quiz" >
+		<input type="hidden" name="form" value="nameform">
+	</form>
+<!-- <div id="overlapper">
 	<canvas style="border:1px solid black;" id="myCanvas" width="500" height="500"></canvas>
 	<canvas style="border:1px solid black;" id="canvas" width="500" height="500"></canvas>
 </div>
@@ -13,4 +19,4 @@
 <a href="boll.html">boll</a>
 
 <script src="frontend/javascript.js" type="text/javascript"></script>
-<script src="frontend/boll.js" type="text/javascript"></script>
+<script src="frontend/boll.js" type="text/javascript"></script> -->
