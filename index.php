@@ -3,7 +3,7 @@ include "fragor/fragesport.php";
 session_start();
 
 $quiz = new Quiz("questions.json");
-
+$_SESSION["quizclass"] = $quiz;
 
 
 if (isset($_POST["form"])) {

@@ -9,18 +9,11 @@ $questions = file_get_contents("questions.json");
 
 $fragorArr = json_decode($questions);
 
+
+
 foreach ($fragorArr as $fragaObj) {
 
 	echo "<hr>" . $fragaObj->questionStr . " " . $_GET["pagenum"];
-	//$_GET["pagenum"]++;
-	// if ($_GET["pagenum"]=="1") {
-		
-	// } else{
-
-	// }
-
-	
-	
 
 	foreach ($fragaObj->choicesArr as $svarStr) {
 		echo "<br>" . $svarStr;

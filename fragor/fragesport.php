@@ -15,5 +15,11 @@ class Quiz {
 		return $this->fragorArr[$num]->questionStr;
 	}
 
+	public function getAnswers($num){
+
+		return $this->fragorArr[$num]->choicesArr;
+	}
+	
+
 	
 }
