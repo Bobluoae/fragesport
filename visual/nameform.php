@@ -1,9 +1,10 @@
 <body>
 
-	<form action="?quiz=clicked" method="post">
+	<form action="" method="post">
 		<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
 		<input type="submit" value="Börja Quiz" >
 		<input type="hidden" name="form" value="nameform">
+		
 	</form>
 <!-- <div id="overlapper">
 	<canvas style="border:1px solid black;" id="myCanvas" width="500" height="500"></canvas>
