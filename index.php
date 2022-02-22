@@ -1,5 +1,6 @@
 <?php 
 include "fragor/fragesport.php";
+include "visual/header.php";
 session_start();
 
 if (!isset($_GET["quiz"])) {
@@ -14,17 +15,16 @@ if (!isset($_SESSION["quiz"]) || $_GET["quiz"] == "notstart") {
 $quiz = new Quiz("questions.json");
 $_SESSION["quizclass"] = $quiz;
 
+
+
 if (isset($_POST["form"])) {
 	
 	if ($_POST["form"] == "nameform") {
 
-
-
-
-
 		if ($_POST["name"] == "") {
 		
-			echo "<a href='/''>Skriv ditt namn för fan</a>";
+			echo "<strong style = 'color: red';> Du måste skriva ett namn!</strong>";
+
 		} else if (is_string($_POST["name"])){ 
 			//Spara i session
 			$_SESSION["namn"] = $_POST["name"];
@@ -34,14 +34,11 @@ if (isset($_POST["form"])) {
 	} 
 	if ($_POST["form"] == "questionform") {
 		//En svara har besvarats
-
+		//TODO
 	}	
 }
 
-echo "<br>";
-var_dump($_POST); echo "<br>";
 
-include "visual/header.php";
 
 if (!isset($_POST["quiz"])) {
 	$_POST["quiz"] = "";

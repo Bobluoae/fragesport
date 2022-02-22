@@ -1,4 +1,21 @@
 Json filen ser ut så här {1 [fråga1 med värde q1, SvarArr[a1,a2,a3,a4]],[2 osv]}
 
-
 Vad jag vill göra är att räkna 1, 2, 3 osv från json och varje nummer är en ny sida och bara visar den fråga jag är på.
+
+
+#TODO
+Assigna ett värde till svaret i json filen. 
+Kolla om värdet är 1 eller 0
+Om det är 0 är det fel, om det är 1 är det rätt.
+.
+Använd olika canvas (grön/röd) om man har rätt/fel.
+.
+.
+.
+.
+Gör så att man inte kan gå ner till minus pagenum och upp över jsonfilens frågelimit.
+.
+Gör en end screen/scoreboard om man går över limiten på json filen.
+.
+.
+.
