@@ -35,6 +35,8 @@ if (isset($_POST["form"])) {
 	if ($_POST["form"] == "questionform") {
 		//En svara har besvarats
 		//TODO
+		
+
 	}	
 }
 
@@ -49,6 +51,16 @@ if (!isset($_GET["page"])) {
 if (!isset($_GET["pagenum"])) {
 	$_GET["pagenum"] = "0";
 }
+
+
+if ($_GET["pagenum"] < "0") {
+	$_GET["pagenum"] = "0";
+}
+if ($_GET["pagenum"] > $quiz->getLength()) {
+	$_GET["pagenum"] = $quiz->getLength();
+}
+
+
 if ($_SESSION["quiz"]=="start") {
 
 	include "visual/navbar.php";

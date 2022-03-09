@@ -10,6 +10,11 @@ class Quiz {
 
 	}
 
+	public function getLength(){
+
+		return count($this->fragorArr);
+	}
+
 	public function getQuestion($num){
 
 		return $this->fragorArr[$num]->questionStr;
@@ -20,6 +25,11 @@ class Quiz {
 		return $this->fragorArr[$num]->choicesArr;
 	}
 	
+	public function getCorrect($num){
+
+		return $this->fragorArr[$num]->correct;
+		
+	}
 
 	
 }
