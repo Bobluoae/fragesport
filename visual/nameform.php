@@ -1,11 +1,18 @@
 <body>
+	<div class="container">
+		<h1 style="color:white">Quiz</h1>
+		<h2 style="color:white">Select your name:</h2>
+		<form action="" method="post">
+			<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
+			<input type="submit" value="Börja Quiz" >
+			<input type="hidden" name="form" value="nameform">
+		</form>
 
-	<form action="" method="post">
-		<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
-		<input type="submit" value="Börja Quiz" >
-		<input type="hidden" name="form" value="nameform">
-		
-	</form>
+		<?php 
+		echo $_POST["error"];
+
+		 ?>
+	</div>
 <!-- <div id="overlapper">
 	<canvas style="border:1px solid black;" id="myCanvas" width="500" height="500"></canvas>
 	<canvas style="border:1px solid black;" id="canvas" width="500" height="500"></canvas>

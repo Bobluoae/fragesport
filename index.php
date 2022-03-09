@@ -23,7 +23,7 @@ if (isset($_POST["form"])) {
 
 		if ($_POST["name"] == "") {
 		
-			echo "<strong style = 'color: red';> Du måste skriva ett namn!</strong>";
+			$_POST["error"] = '<strong style = "color: red";> Du måste skriva ett namn!</strong>';
 
 		} else if (is_string($_POST["name"])){ 
 			//Spara i session
@@ -41,7 +41,9 @@ if (isset($_POST["form"])) {
 }
 
 
-
+if (!isset($_POST["error"])) {
+	$_POST["error"] = "";
+}
 if (!isset($_POST["quiz"])) {
 	$_POST["quiz"] = "";
 }
@@ -52,12 +54,12 @@ if (!isset($_GET["pagenum"])) {
 	$_GET["pagenum"] = "0";
 }
 
-
+// keep pagenum to the number of json file questions
 if ($_GET["pagenum"] < "0") {
 	$_GET["pagenum"] = "0";
 }
-if ($_GET["pagenum"] > $quiz->getLength()) {
-	$_GET["pagenum"] = $quiz->getLength();
+if ($_GET["pagenum"] > ($quiz->getLength() - 1)) {
+	$_GET["pagenum"] = $quiz->getLength() - 1;
 }
 
 

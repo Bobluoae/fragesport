@@ -3,7 +3,6 @@ $q = $_SESSION["quizclass"];
 $a = $q->getAnswers($_GET["pagenum"]);
 $c = $q->getCorrect($_GET["pagenum"]);
 
-/*"?pagenum=<?php echo $_GET["pagenum"]+1?>*/
 ?>
 <form action="" method="POST">
 	<?php 
@@ -38,9 +37,7 @@ $c = $q->getCorrect($_GET["pagenum"]);
 
  ?>
 
-<p id="output"></p>
-
-
+<!-- <p id="output"></p>
 <script>
         // add an event listener for the change event
     const radioButtons = document.querySelectorAll('input[name="answer"]');
@@ -57,4 +54,4 @@ $c = $q->getCorrect($_GET["pagenum"]);
 	}
 	
      
-</script>
+</script> -->

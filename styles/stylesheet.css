@@ -12,11 +12,23 @@ margin: 0;
 padding: 0;
 
 }
-
 section{
 display: flex;
 	justify-content: right;
 }
+.container {
+    text-align: center;
+    margin: auto;
+    border: 5px solid blue;
+    padding: 10px;
+    background-color: darkblue;
+    width: 50%;
+    height: 200px;
+}
+}
+
+
+
 #overlapper{
     position:relative;
     width:500px;
