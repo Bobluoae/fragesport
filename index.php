@@ -68,12 +68,12 @@ if ($_SESSION["quiz"]=="start") {
 	include "visual/navbar.php";
 
 	echo $quiz->getQuestion($_GET["pagenum"]);
-	include "visual/questionform.php";
+	include "visual/pages/questionform.php";
 
 
 } else {
 
-	include "visual/nameform.php";
+	include "visual/pages/nameform.php";
 }
 
 
