@@ -67,7 +67,6 @@ if ($_SESSION["quiz"]=="start") {
 
 	include "visual/navbar.php";
 
-	echo $quiz->getQuestion($_GET["pagenum"]);
 	include "visual/pages/questionform.php";
 
 

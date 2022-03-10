@@ -4,6 +4,16 @@ $a = $q->getAnswers($_GET["pagenum"]);
 $c = $q->getCorrect($_GET["pagenum"]);
 
 ?>
+<div id="questionform">
+
+<?php echo "<br>Hej, " . $_SESSION["namn"] . "!<br><br>";
+
+echo $quiz->getQuestion($_GET["pagenum"]) . "<br><br>";
+
+  ?>
+
+
+
 <form action="" method="POST">
 	<?php 
 
@@ -13,13 +23,13 @@ $c = $q->getCorrect($_GET["pagenum"]);
 
 		
 	}?>
-
+    <br>
 	<input type="submit" name="submit" value="Svara">
 	<br>
 	<input type="hidden" name="form" value="questionform">
 	
 </form>
-
+<br>
 <?php 
 
 	if(isset($_POST['submit'])){
@@ -31,12 +41,12 @@ $c = $q->getCorrect($_GET["pagenum"]);
         		echo "Incorrect!";
         	}
         } else {
-          echo 'Please select something';
+          echo 'Please select an answer';
         }
     }
 
  ?>
-
+</div>
 <!-- <p id="output"></p>
 <script>
         // add an event listener for the change event
