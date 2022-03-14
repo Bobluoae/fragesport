@@ -1,8 +1,9 @@
 <body>
 	<div class="container">
-		<h1 style="color:white">Quiz</h1>
-		<h2 style="color:white">Select your name:</h2>
-		<form action="?quiz=start" method="post">
+		<br>
+		<h1 style="color:white">Quiz</h1> <br>
+		<h2 style="color:white">Select your name:</h2><br>
+		<form class="size" action="?quiz=start" method="post">
 			<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
 			<input type="submit" value="Börja Quiz" >
 			<input type="hidden" name="form" value="nameform">

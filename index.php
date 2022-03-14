@@ -96,6 +96,7 @@ if ($_GET["pagenum"] > ($quiz->getLength() - 1) && $_SESSION["quiz"]=="start") {
 
 	include "visual/navbar.php";
 
+
 	include "visual/pages/endscreen.php";
 
 } else if ($_SESSION["quiz"]=="start") {
@@ -105,8 +106,6 @@ if ($_GET["pagenum"] > ($quiz->getLength() - 1) && $_SESSION["quiz"]=="start") {
 	if ($_GET["pagenum"] < "1") {
 	echo "<br>Hej, " . $_SESSION["namn"] . "!<br><br>";
 	}
-
-	echo $quiz->getQuestion($_GET["pagenum"]);
 	include "visual/pages/questionform.php";
 	echo $message; 
 

@@ -2,7 +2,12 @@
 $q = $_SESSION["quizclass"];
 $a = $q->getAnswers($_GET["pagenum"]);
 
-?>
+echo $quiz->getQuestion($_GET["pagenum"]) . "<br><br>";
+
+  ?>
+
+<div id="questionform">
+
 <form action="?pagenum=<?php echo $_GET["pagenum"]?>" method="POST">
 	<?php 
 
@@ -12,12 +17,15 @@ $a = $q->getAnswers($_GET["pagenum"]);
 
 		
 	}?>
-
+    <br>
 	<input type="submit" name="submit" value="Svara">
 	<br>
 	<input type="hidden" name="form" value="questionform">
 	
 </form>
+<br>
+
+</div>
 
 <!-- <p id="output"></p>
 <script>

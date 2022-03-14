@@ -12,8 +12,11 @@ margin: 0;
 padding: 0;
 
 }
+input {
+    font-size: 25px;
+}
 section{
-display: flex;
+    display: flex;
 	justify-content: right;
 }
 .container {
@@ -24,10 +27,8 @@ display: flex;
     background-color: darkblue;
     width: 50%;
     height: 200px;
+    font-size: 20px;
 }
-}
-
-
 
 #overlapper{
     position:relative;
@@ -45,6 +46,7 @@ display: flex;
 	padding: 0px;
     display: flex; 
     justify-content: center;
+
 }
 #footer{
     width: 100%;
@@ -52,4 +54,15 @@ display: flex;
     margin-top: 500px;
     text-align: center;
     background-color: lightgreen;
+    font-size: 20px;
+}
+#questionform {
+    text-align: center;
+    margin: auto;
+    border: 5px solid orange;
+    padding: 10px;
+    background-color: darkorange;
+    width: 50%;
+    height: auto;
+    font-size: 25px;
 }
