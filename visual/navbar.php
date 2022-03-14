@@ -7,4 +7,3 @@
     </ul>
   
 </div>
-<?php echo "<br>Hej, " . $_SESSION["namn"] . "!<br><br>";  ?>

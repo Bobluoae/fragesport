@@ -1,10 +1,9 @@
 <?php 
 $q = $_SESSION["quizclass"];
 $a = $q->getAnswers($_GET["pagenum"]);
-$c = $q->getCorrect($_GET["pagenum"]);
 
 ?>
-<form action="" method="POST">
+<form action="?pagenum=<?php echo $_GET["pagenum"]?>" method="POST">
 	<?php 
 
 	for ($i=0; $i < count($a); $i++) { 
@@ -19,23 +18,6 @@ $c = $q->getCorrect($_GET["pagenum"]);
 	<input type="hidden" name="form" value="questionform">
 	
 </form>
-
-<?php 
-
-	if(isset($_POST['submit'])){
-        if(isset($_POST['answer'])) {
-        	if ($_POST['answer'] == $c) {
-        		echo "Correct!";
-        	}
-        	else if ($_POST['answer'] != $c) {
-        		echo "Incorrect!";
-        	}
-        } else {
-          echo 'Please select something';
-        }
-    }
-
- ?>
 
 <!-- <p id="output"></p>
 <script>
