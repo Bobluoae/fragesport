@@ -1,21 +1,21 @@
 [
     {
-        "questionStr": "Vem är Olle?",
+        "questionStr": "Vad heter det stora berget Mount Everest?",
         "choicesArr": [
-            "q1a1",
-            "q1a2",
-            "q1a3",
-            "q1a4"
+            "Mount Everest",
+            "Faxeholmen",
+            "Kebenekajse",
+            "Pelle Svanslös"
         ],
         "correct" : 0
     }, 
     {
-        "questionStr": "Q2",
+        "questionStr": "Vem sjöng opera den 18:e november 1974 i Frankrike?",
         "choicesArr": [
-            "q2a1",
-            "q2a2",
-            "q2a3",
-            "q2a4"
+            "Pettson",
+            "I Don't Fucking Know?",
+            "Kalle Anka",
+            "Bruh who listen to that"
         ],
         "correct" : 2
     }, 

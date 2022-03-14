@@ -1,9 +1,10 @@
-<body>
-	<div class="container">
-		<br>
-		<h1 style="color:white">Quiz</h1> <br>
-		<h2 style="color:white">Select your name:</h2><br>
-		<form class="size" action="?quiz=start" method="post">
+  <header class="mb-auto">&nbsp;</header>
+  
+  <main class="px-3">
+    <h1>Quiz</h1>
+    <p class="lead">Select your name:</p>
+    <p class="lead">
+      <form class="size" action="?quiz=start" method="post">
 			<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
 			<input type="submit" value="Börja Quiz" >
 			<input type="hidden" name="form" value="nameform">
@@ -13,7 +14,10 @@
 		echo $_POST["error"];
 
 		 ?>
-	</div>
+    </p>
+  </main>
+
+
 <!-- <div id="overlapper">
 	<canvas style="border:1px solid black;" id="myCanvas" width="500" height="500"></canvas>
 	<canvas style="border:1px solid black;" id="canvas" width="500" height="500"></canvas>
