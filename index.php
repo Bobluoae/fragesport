@@ -91,12 +91,16 @@ if ($_GET["pagenum"] < "0") {
 	$_GET["pagenum"] = "0";
 }
 
+
+
+//=============================================================================================0
+
+
+
 if ($_GET["pagenum"] > ($quiz->getLength() - 1) && $_SESSION["quiz"]=="start") {
 	$_GET["pagenum"] = $quiz->getLength();
 
 	include "visual/navbar.php";
-
-
 	include "visual/pages/endscreen.php";
 
 } else if ($_SESSION["quiz"]=="start") {
