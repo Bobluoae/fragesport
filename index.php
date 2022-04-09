@@ -18,8 +18,10 @@ if (!isset($_SESSION["quiz"]) || $_GET["quiz"] == "notstart") {
 	$_SESSION["results"] = [];
 }
 
+$arr = ["questions.json", "quest.json"];
+$var = $arr[0];
+$quiz = new Quiz($var);
 
-$quiz = new Quiz("questions.json");
 $_SESSION["quizclass"] = $quiz;
 
 
