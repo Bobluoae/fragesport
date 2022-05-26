@@ -8,7 +8,7 @@
 
     <form class="size" action="?quiz=start" method="post">
     	<p class="lead">
-			<input type="text" name="name" placeholder="Ditt namn" autocomplete="off">
+			<input type="text" name="name" placeholder="Your name" autocomplete="off">
 			<input type="hidden" name="form" value="nameform">
 		</p>
 		<p class="lead">
@@ -26,7 +26,7 @@
 
 		</select>
 		<br><br>
-		<input type="submit" value="Börja Quiz" class="btn btn-info">
+		<input type="submit" value="Begin Quiz!" class="btn btn-info">
 		</p>
 	</form>
   </main>

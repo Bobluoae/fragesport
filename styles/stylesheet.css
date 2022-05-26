@@ -128,3 +128,16 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.btn-secondary {
+  color: white;
+}
+.btn-secondary, .btn-secondary:hover {
+  color: white;
+  border-color: #444;
+}
+
+.btn-check:checked+.btn-secondary {
+  background-color: #444;
+    border-color: #444;
+}

@@ -19,7 +19,7 @@ $a = $q->getAnswers($_GET["pagenum"]);
         
     <?php } ?>
     <br><br>
-	<input type="submit" name="submit" value="Svara" class="btn btn-primary btn-lg">
+	<input type="submit" name="submit" value="Submit answer" class="btn btn-primary btn-lg">
 	<br>
 	<input type="hidden" name="form" value="questionform">
 	
