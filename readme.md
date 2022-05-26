@@ -5,11 +5,16 @@ Syftet med webbapplikationen är att uppfylla kraven som uppgiftsbeskrivningen s
 ## Struktur
 
 ├───fragor
+
 ├───frontend
+
 ├───logic
+
 ├───styles
+
 └───visual
-    └───pages
+
+	└───pages
 
 ## För att få igång projektet 
 
