@@ -1,0 +1,82 @@
+[
+    {
+        "questionStr": "Vad heter dom som utvecklar Minecraft?",
+        "choicesArr": [
+            "Mojang",
+            "Notch",
+            "Microsoft",
+            "Valve"
+        ],
+        "correct" : 0
+    }, 
+    {
+        "questionStr": "Hur många inventory platser har en kista?",
+        "choicesArr": [
+            "27 Platser",
+            "25 Platser",
+            "23 Platser",
+            "30 Platser"
+        ],
+        "correct" : 0
+    }, 
+    {
+        "questionStr": "Hur craftar man en Piston?",
+        "choicesArr": [
+            "7 Cobbelstone, 1 Redstone",
+            "7 Cobblestone, 1 Redstone, 1 Nether quarts",
+            "6 Iron ingots, 1 Pinne",
+            "3 Plankor, 4 Cobblestone, 1 Redstone och 1 Iron ingot"
+        ],
+        "correct" : 3
+    }, 
+    {
+        "questionStr": "Vad är Build Limit i den senaste versionen av Minecraft?",
+        "choicesArr": [
+            "319",
+            "354",
+            "256",
+            "299"
+        ],
+        "correct" : 0
+    }, 
+    {
+        "questionStr": "Vad behöver man för att tämja en papegoja?",
+        "choicesArr": [
+            "Kakor",
+            "Wheat",
+            "Coco beans",
+            "Seeds"
+        ],
+        "correct" : 3
+    }, 
+    {
+        "questionStr": "Vad hette Notchs bror enligt myten?",
+        "choicesArr": [
+            "Harrison Ford",
+            "SSundee",
+            "Herobrine",
+            "DanTDM"
+        ],
+        "correct" : 2
+    }, 
+    {
+        "questionStr": "Vad är den högsta effekt leveln man kan ge sig själv med kommando?",
+        "choicesArr": [
+            "254",
+            "255",
+            "5",
+            "300"
+        ],
+        "correct" : 1
+    }, 
+    {
+        "questionStr": "Hur stor är en vanlig Minecraft värld?",
+        "choicesArr": [
+            "60M * 60M Block",
+            "30M * 30M Block",
+            "10M * 10M Block",
+            "25M * 25M Block"
+        ],
+        "correct" : 0
+    }
+]
