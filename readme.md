@@ -3,18 +3,14 @@
 Syftet med webbapplikationen är att uppfylla kraven som uppgiftsbeskrivningen som skolan gav i webbserverprogrammering 1 och webbutveckling 2. Webbappen ska låta användaren “tävla” och svara på en rolig quiz som användaren har valt. Allt som behövs är att skriva sitt namn innan man börjar quizen.
 
 ## Struktur
-
+```
 ├───fragor
-
 ├───frontend
-
 ├───logic
-
 ├───styles
-
 └───visual
-
-	└───pages
+    └───pages
+```
 
 ## För att få igång projektet 
 
