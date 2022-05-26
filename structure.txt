@@ -1,0 +1,29 @@
+Folder PATH listing
+Volume serial number is D0DE-0D20
+C:.
+│   index.php
+│   Minecraft.json
+│   Overwatch.json
+│   readme.md
+│
+├───fragor
+│       fragesport.php
+│
+├───frontend
+│       boll.js
+│
+├───logic
+│       logic.php
+│
+├───styles
+│       stylesheet.css
+│
+└───visual
+    │   footer.php
+    │   header.php
+    │   navbar.php
+    │
+    └───pages
+            endscreen.php
+            nameform.php
+            questionform.php
