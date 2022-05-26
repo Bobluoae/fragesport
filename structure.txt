@@ -1,6 +1,3 @@
-Folder PATH listing
-Volume serial number is D0DE-0D20
-C:.
 │   index.php
 │   Minecraft.json
 │   Overwatch.json
