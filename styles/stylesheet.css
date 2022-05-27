@@ -1,61 +1,3 @@
-/**{
-    padding: 0;
-    margin: 0;
-}
-body{
-background-color: lightblue;
-background-position:center;
-font-family:Arial, Helvetica, sans-serif;
-font-size:16px;
-line-height:1.6em;
-margin: 0;
-padding: 0;
-
-}
-input {
-    font-size: 25px;
-}
-section{
-    display: flex;
-	justify-content: right;
-}
-.container {
-    text-align: center;
-    margin: auto;
-    border: 5px solid blue;
-    padding: 10px;
-    background-color: darkblue;
-    width: 50%;
-    height: 200px;
-    font-size: 20px;
-}
-
-#overlapper{
-    position:relative;
-    width:500px;
-    height:500px;
-}
-#myCanvas, #canvas{
-    position:absolute; top:0px; left:200px;
-    width:500px;
-    height:500px;
-}
-#nav {
-	background-color: lightgreen;
-	margin: 0px;
-	padding: 0px;
-    display: flex; 
-    justify-content: center;
-
-}
-#footer{
-    width: 100%;
-    height: 100px;
-    margin-top: 400px;
-    text-align: center;
-    background-color: lightgreen;
-    font-size: 20px;
-}*/
 #questionform {
     font-size: 25px;
 }
@@ -75,10 +17,6 @@ section{
         font-size: 3.5rem;
     }
 }
-/*
- * Globals
- */
-
 
 /* Custom default button */
 .btn-secondary,
@@ -128,7 +66,9 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+/*
+ *button styling
+ */
 .btn-secondary {
   color: white;
 }
